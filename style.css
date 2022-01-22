@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+
+*,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
