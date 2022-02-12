@@ -155,13 +155,19 @@ nav ul li:hover {
     font-family: 'Poppins' sans-serif;
     font-weight: bold;
     align-content: center;
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #0e0d0d;
     font-size: 20px;
     color: #98500E;
     cursor: pointer;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid #98500E;
+}
+#book-btn:hover{
+  background:  #98500E;
+  transition: .5s;
 }
 
 .section-2{
@@ -214,17 +220,22 @@ nav ul li:hover {
     text-align: center;
 }
 .section-2 #book-btn-2{
-    font-family: 'Poppins' sans-serif;
-    font-weight: bold;
-    align-content: center;
-    width: 200px;
-    height: 50px;
-    margin: 10px;
-    border-radius: 5px;
-    background-color: #0e0d0d;
-    font-size: 20px;
-    color: #98500E;
-    cursor: pointer;
+  font-family: 'Poppins' sans-serif;
+  font-weight: bold;
+  align-content: center;
+  font-size: 20px;
+  color: #98500E;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+  padding: 7px 22px;
+  text-decoration: none;
+  border: 1px solid #98500E;
+}
+.section-2 #book-btn-2:hover{
+  background:  #98500E;
+  transition: .5s;
 }
 .section-3{
     background: #1f1e1d;
@@ -290,6 +301,9 @@ footer .footer-head{
     left: 66%;
     margin-left: -3px;
 }
+
+
+
 @media only screen and (max-width: 600px) {
 
   body{
