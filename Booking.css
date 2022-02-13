@@ -104,7 +104,7 @@ img
 body {
   /* background-color: #353836; */
   color: white;
-  background-image: url(./images/booking-back.jpg);
+  background-image: url('./images/booking-back.jpg');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);

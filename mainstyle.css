@@ -115,7 +115,7 @@ nav ul li:hover {
 }
 
 .section-1{
-  background-image: url(/images/background.svg);
+  background-image: url('./images/background.svg');
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.3);
@@ -193,7 +193,7 @@ nav ul li:hover {
 
 .section-2 .box-1{
     overflow:hidden;
-    background-image: url(/images/background-2.jpg);
+    background-image: url('./images/background-2.jpg');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -201,7 +201,7 @@ nav ul li:hover {
 }
 .section-2 .box-2{
     overflow:hidden;
-    background-image: url(/images/Rooms/room-1.jpg);
+    background-image: url('./images/Rooms/room-1.jpg');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -211,7 +211,7 @@ nav ul li:hover {
 }
 .section-2 .box-3{
     overflow:hidden;
-    background-image: url(/images/haile.jpg);
+    background-image: url('./images/haile.jpg');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -238,7 +238,7 @@ nav ul li:hover {
 }
 .section-3{
     background: #1f1e1d;
-    background-image: url(./images/background-3.jpg);
+    background-image: url('./images/background-3.jpg');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.8);
