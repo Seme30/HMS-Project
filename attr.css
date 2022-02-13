@@ -171,7 +171,8 @@ body, html{
 
 .pimg4 h1 ul{
   background-color: rgb(131, 21, 21);
-	
+	text-decoration: none;
+  list-style: none;
 }
 .section
 {

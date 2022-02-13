@@ -279,6 +279,7 @@ footer .footer-head{
     background-color: #1f1e1d;
 }
 .footer .container{
+  background-image: url('/images/background-2.jpg');
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -289,19 +290,17 @@ footer .footer-head{
  width: 25px;
  height: 25px;
 }
-.footer .vl{
-    border-left: 6px solid snow;
-    position: absolute;
-    height: 25vh;
-    left: 33%;
-    margin-left: -3px;
-}
-.footer .vl2{
-    border-left: 6px solid snow;
-    position: absolute;
-    height: 25vh;
-    left: 66%;
-    margin-left: -3px;
+
+.footer-2 {
+    color: #fff;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    padding: 25px ;
+    padding-left: 75px;
+    outline: none;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border: 5px solid rgba(255, 255, 255, 0.47);
 }
 
 
@@ -330,9 +329,6 @@ footer .footer-head{
     line-height: 1;
     font-weight: normal; 
     align-content: center;
-}
-.section-2{
-
 }
 .section-2 .container{
     display: flex;

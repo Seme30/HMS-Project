@@ -4,11 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mainstyle.css" />
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <title>Haile Resorts</title>
   </head>
   <body>
     <header>
-      <div id="brand"><a href="#">Haile</a></div>
+      <div id="brand"><a href="/main.html">Haile</a></div>
       <nav>
         <ul>
           <li><a href="/main.html">Home</a></li>
@@ -111,16 +112,23 @@
             <h3 class="footer-item">WE'RE ON SOCIAL MEDIA</h3>
              <a target="_blank" href="https://www.facebook.com/Hailehotelsandresorts/"><img src="images/logos/facebook.png" alt=""></a>
              <a target="_blank" href="https://twitter.com/haileresort"><img src="images/logos/twitter.png" alt=""></a>
-             <a target="_blank" href="https://www.facebook.com/Hailehotelsandresorts/"><img src="images/logos/gmail.png" alt=""></a>
-             <a target="_blank" href="reservationarbaminch@haileresorts.com"><img src="images/logos/instagram.png" alt=""></a>
+             <a target="_blank" href="https://www.instagram.com/hailehotelsandresorts/"><img src="images/logos/instagram.png" alt=""></a>
+             <a target="_blank" href="#"><img src="images/logos/gmail.png" alt=""></a>
            </div> 
            <div class="vl"></div>
            <div class="footer-2">
                <h3 class="footer-item">JOIN OUR MAILING LIST</h3><br>
-               <form action="" name="form-footer">
-                   <input type="text" placeholder="Name"> <br><br>
-                   <input type="email" placeholder="Email"><br><br>
-                   <button id="footer-btn">JOIN</button>
+               <form action="#" name="form-footer">
+                <div class="first-name">
+                    <input type="text" name="firstName" placeholder="First name" required="" autocomplete="off">
+                </div>
+                <br>
+                <div class="email">
+                    <input type="email" name="email" placeholder="Email" required="" autocomplete="off">
+                 </div>
+                 <br>
+                   <input type="submit" id="footer-btn" value="JOIN ">
+                   <input type = "reset" id="footer-btn2" value="RESET">
                </form>
            </div>
            <div class="vl2"></div>
