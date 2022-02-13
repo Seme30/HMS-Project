@@ -239,53 +239,56 @@ nav ul li:hover {
 }
 .section-3{
     background: #1f1e1d;
+    background-image: url(./images/background-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+
   height: 120vh;
 }
 .section-3 .container{
-    display: flex;
-    justify-content: space-around;
-    padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
 }
 
 .section-3 .dinning{
-    margin: 20px;
-    text-align: justify;
-    padding: 10px;
-    color: snow;
-    line-height: 1.6;
-    width: 500px;
-    box-shadow: e 5px 10px black;
+  margin: 20px;
+  height: 500px;
+  text-align: justify;
+  padding: 30px;
+  color: snow;
+  line-height: 1.6;
+  width: 340px;
+  box-shadow: e 5px 10px black;
 }
 
-.section-3 #btn-dining{
-    font-family: 'Poppins' sans-serif;
-    font-weight: bold;
-    align-content: center;
-    width: 300px;
-    height: 60px;
-    margin: 10px;
-    border-radius: 5px;
-    background-color: #0e0d0d;
-    font-size: 20px;
-    color: #98500E;
-    cursor: pointer;
+.section-3 .text{
+  overflow: hidden;
+  align-content: center;
 }
+
+.section-3 span{
+  font-weight: bold;
+}
+
 footer .footer-head{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #353836;
+    background-color: #1f1e1d;;
 }
 .footer .container{
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 8evh;
-    background-color: #1f1e1d;
+    background-color:  #353836;
 }
 .footer img{
- width: 50px;
- height: 50px;
+ width: 25px;
+ height: 25px;
 }
 .footer .vl{
     border-left: 6px solid snow;

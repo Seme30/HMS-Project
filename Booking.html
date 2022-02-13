@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="./Booking.css">
+</head>
+<body>
+    <header>
+        <div id="brand"><a href="#">Haile</a></div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="/Aboutus.html">About</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="/Aboutus.html">About</a></li>
+          </ul>
+        </div>
+      </header>
+      <h1 class="resort-heading"> Haile Resort Booking Form</h1>
+      <div class="section-1">
+          <div class="booking-form">
+                <h2 class="booking-head">Book Now</h2>
+                <div class="form">
+                    <form action="#" method="post" name="booking-form">
+                        <div class="registration-from">
+                            <div class="first-name">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+								<input type="text" name="firstName" placeholder="First name" required="" autocomplete="off">
+                            </div>
+                            <div class="last-name">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+								<input type="text" name="lastName" placeholder="Last name" required="" autocomplete="off">
+                            </div>
+                            <div class="phone-number">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+								<input type="text" name="Phone no" placeholder="Phone number" required="" autocomplete="off">
+                            </div>
+                            <div class="email">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+								<input type="email" name="email" placeholder="Email" required="" autocomplete="off">
+                            </div>
+                            <div class="book-data">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+								<input  id="datepicker" name="Text" type="text" value="" placeholder="Arrival Date"  required="">
+                            </div>
+                            <div class="book-data">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+								<input  id="datepicker" name="Text" type="text" value="" placeholder="Departure Date"  required="">
+                            </div>
+                            <div class="guests">
+
+                            </div>
+                            <div class="room-type">
+                                
+                            </div>
+                        </div> 
+                    </form>
+                </div>
+          </div>
+      </div>
+      <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<!--Calendar -->
+				<link rel="stylesheet" href="jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+			<!-- //Calendar -->
+</body>
+</html>
