@@ -141,21 +141,21 @@ body, html{
 }
 
 .pimg1{
-	background-image: url('/images/haile.jpg');
+	background-image: url("./images/haile.jpg");
 	min-height: 100%;
 }
 
 .pimg2{
-	background-image: url('/images/nat.PNG');
+	background-image: url("./images/nat.PNG");
 	min-height: 100%;
 }
 
 .pimg3{
-	background-image: url('/images/arba-minch2.jpg');
+	background-image: url("./images/arba-minch2.jpg");
 	min-height: 100%;
 }
 .pimg4{
-	background-image: url('/images/other.jpg');
+	background-image: url("./images/other.jpg");
 	min-height: 100%;
 }
 .pimg4 h1 {
